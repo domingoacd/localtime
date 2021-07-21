@@ -8,6 +8,9 @@ export const Section = styled.section`
 `;
 
 export const WelcomeText = styled.p`
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
   font-size: ${({ theme }) => theme.fontSize.medium};
   text-transform: uppercase;
   color: ${({ theme }) => theme.day.color.primary};
@@ -20,6 +23,10 @@ export const LocationText = styled.p`
   color: ${({ theme }) => theme.day.color.primary};
 `;
 
-export const LeftSide = styled.div``;
+export const Icon = styled.img`
+  display: block;
+  width: 1rem;
+  height: 1rem;
+`;
 
-export const RightSide = styled.div``;
+export const LeftSide = styled.div``;
