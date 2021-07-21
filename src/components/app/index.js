@@ -1,19 +1,19 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle, theme } from "../../style";
 import Quote from "../quote";
-import Clock from "../clock";
-import { AppContainer, Overlay } from "./style";
+import BgImage from "../bgImage";
+import { AppContainer } from "./style";
 import dayBg from "../../assets/day.png";
+import BottomSection from "../bottomSection";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <AppContainer bgImage={dayBg}>
-        <Overlay />
+      <BgImage imageUrl={dayBg} />
+      <AppContainer>
         <Quote />
-
-        <Clock />
+        <BottomSection />
       </AppContainer>
     </ThemeProvider>
   );
