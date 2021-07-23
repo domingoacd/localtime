@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Quote component 1`] = `
+<blockquote
+  className="sc-bdnxRM gBQhwI"
+>
+  "Don’t postpone joy until you have learned all of your lessons. Joy is your lesson."
+  <span
+    className="sc-gtsrHT kyKqlw"
+  >
+    Alan Cohen
+  </span>
+</blockquote>
+`;

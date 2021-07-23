@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Bottom Section component 1`] = `
+<section
+  className="sc-hKFxyN huiglw"
+>
+  <div
+    className="sc-iCoGMd"
+  >
+    <p
+      className="sc-eCApnc fqCuvX"
+    >
+      <img
+        alt=""
+        className="sc-gKAaRy iDAsbE"
+        src="moon.png"
+      />
+       GOOD NIGHT, THE TIME IS
+    </p>
+    <p
+      className="sc-bdnxRM cSUPny"
+    >
+      07:02
+    </p>
+    <p
+      className="sc-jSFjdj ioQIbu"
+    >
+      IN CARACAS, VENEZUELA
+    </p>
+  </div>
+  <button
+    className="sc-gtsrHT btlwrB"
+  >
+    Show more 
+    <span
+      className="sc-dlnjwi jZMDaY"
+    />
+  </button>
+</section>
+`;

@@ -1,12 +1,10 @@
 import React from "react";
 import { Blockquote, QuoteAuthor } from "./style";
-
-const Quote = (props) => {
+const Quote = ({ quoteData = {} }) => {
   return (
     <Blockquote>
-      "Don’t postpone joy until you have learned all of your lessons. Joy is
-      your lesson."
-      <QuoteAuthor>Alan Cohen</QuoteAuthor>
+      {quoteData.quote ? '"' + quoteData.quote + '"' : ""}
+      <QuoteAuthor>{quoteData.author ? quoteData.author : ""}</QuoteAuthor>
     </Blockquote>
   );
 };

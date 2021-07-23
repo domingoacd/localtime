@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Background Image component 1`] = `
+<div
+  className="sc-bdnxRM jziPD"
+>
+  <div
+    className="sc-gtsrHT jrdYPp"
+  />
+</div>
+`;

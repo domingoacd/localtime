@@ -29,7 +29,11 @@ export const theme = {
   fontSize: {
     small: "1.1rem",
     medium: "1.4rem",
-    big: "2rem",
+    big: "3rem",
     xbig: "30rem",
+  },
+
+  spacing: {
+    xPadding: "3rem",
   },
 };

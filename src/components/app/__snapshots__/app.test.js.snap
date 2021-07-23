@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders App component 1`] = `
+Array [
+  <div
+    className="sc-dlnjwi fDzMIF"
+  >
+    <div
+      className="sc-hKFxyN jIwCHt"
+    />
+  </div>,
+  <div
+    className="sc-eCApnc hGQfjl"
+  >
+    <blockquote
+      className="sc-bdnxRM gBQhwI"
+    >
+      "Don’t postpone joy until you have learned all of your lessons. Joy is your lesson."
+      <span
+        className="sc-gtsrHT kyKqlw"
+      >
+        Alan Cohen
+      </span>
+    </blockquote>
+    <section
+      className="sc-fujyAs dPWxxo"
+    >
+      <div
+        className="sc-iqAclL"
+      >
+        <p
+          className="sc-pNWdM bfEEQN"
+        >
+          <img
+            alt=""
+            className="sc-kEqXSa ewoxua"
+            src="moon.png"
+          />
+           GOOD NIGHT, THE TIME IS
+        </p>
+        <p
+          className="sc-jSFjdj eUeLBm"
+        >
+          07:02
+        </p>
+        <p
+          className="sc-jrsJWt bwYHFv"
+        >
+          IN CARACAS, VENEZUELA
+        </p>
+      </div>
+      <button
+        className="sc-gKAaRy iRJMvI"
+      >
+        Show more 
+        <span
+          className="sc-iCoGMd ewA-Dvh"
+        />
+      </button>
+    </section>
+  </div>,
+]
+`;
