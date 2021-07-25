@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Info Box component 1`] = `
+<div
+  className="sc-bdnxRM jXmRnI"
+>
+  <div
+    className="sc-gtsrHT fukgYK"
+  >
+    <div
+      className="sc-dlnjwi fZwEdI"
+    >
+      <p
+        className="sc-hKFxyN fIBXev"
+      >
+        CURRENT TIMEZONE
+      </p>
+      <h3
+        className="sc-eCApnc XaHFH"
+      >
+        Venezuelan VET
+      </h3>
+    </div>
+    <div
+      className="sc-dlnjwi fZwEdI"
+    >
+      <p
+        className="sc-hKFxyN fIBXev"
+      >
+        DAY OF THE WEEK
+      </p>
+      <h3
+        className="sc-eCApnc XaHFH"
+      >
+        1
+      </h3>
+    </div>
+  </div>
+  <div
+    className="sc-gtsrHT fukgYK"
+  >
+    <div
+      className="sc-dlnjwi fZwEdI"
+    >
+      <p
+        className="sc-hKFxyN fIBXev"
+      >
+        DAY OF THE YEAR
+      </p>
+      <h3
+        className="sc-eCApnc XaHFH"
+      >
+        125
+      </h3>
+    </div>
+    <div
+      className="sc-dlnjwi fZwEdI"
+    >
+      <p
+        className="sc-hKFxyN fIBXev"
+      >
+        WEEK NUMBER
+      </p>
+      <h3
+        className="sc-eCApnc XaHFH"
+      >
+        29
+      </h3>
+    </div>
+  </div>
+</div>
+`;

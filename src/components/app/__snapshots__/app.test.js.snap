@@ -10,7 +10,7 @@ Array [
     />
   </div>,
   <div
-    className="sc-eCApnc hGQfjl"
+    className="sc-eCApnc jMzDgT"
   >
     <blockquote
       className="sc-bdnxRM gBQhwI"
@@ -58,6 +58,74 @@ Array [
         />
       </button>
     </section>
+    <div
+      className="sc-crzoAE eNHenv"
+    >
+      <div
+        className="sc-dIsUp ipoGrL"
+      >
+        <div
+          className="sc-bqGGPW kqzvNC"
+        >
+          <p
+            className="sc-ksluID ieOeuJ"
+          >
+            CURRENT TIMEZONE
+          </p>
+          <h3
+            className="sc-hBMUJo bbVOhK"
+          >
+            Venezuelan VET
+          </h3>
+        </div>
+        <div
+          className="sc-bqGGPW kqzvNC"
+        >
+          <p
+            className="sc-ksluID ieOeuJ"
+          >
+            DAY OF THE WEEK
+          </p>
+          <h3
+            className="sc-hBMUJo bbVOhK"
+          >
+            1
+          </h3>
+        </div>
+      </div>
+      <div
+        className="sc-dIsUp ipoGrL"
+      >
+        <div
+          className="sc-bqGGPW kqzvNC"
+        >
+          <p
+            className="sc-ksluID ieOeuJ"
+          >
+            DAY OF THE YEAR
+          </p>
+          <h3
+            className="sc-hBMUJo bbVOhK"
+          >
+            125
+          </h3>
+        </div>
+        <div
+          className="sc-bqGGPW kqzvNC"
+        >
+          <p
+            className="sc-ksluID ieOeuJ"
+          >
+            WEEK NUMBER
+          </p>
+          <h3
+            className="sc-hBMUJo bbVOhK"
+          >
+            29
+          </h3>
+        </div>
+      </div>
+    </div>
   </div>,
 ]
 `;

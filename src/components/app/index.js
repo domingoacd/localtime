@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle, theme } from "../../style";
 import Quote from "../quote";
@@ -7,6 +8,7 @@ import dayBg from "../../assets/day.png";
 import BottomSection from "../bottomSection";
 import { QUOTE_DATA } from "../../constants";
 import InfoBox from "../infoBox";
+
 function App() {
   return (
     <ThemeProvider theme={theme}>

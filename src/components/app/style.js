@@ -6,7 +6,8 @@ export const AppContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rem ${({ theme }) => theme.spacing.xPadding} 0;
+  padding: 2rem ${({ theme }) => theme.spacing.xPadding};
+  overflow: hidden;
   background-size: cover;
   background-image: url(${(props) => props.bgImage});
 `;
