@@ -11,7 +11,7 @@ const BottomSection = ({ props }) => {
     <Section translate={showInfoBox}>
       <LeftSide>
         <WelcomeText>
-          <Icon src={moon} alt="" /> GOOD NIGHT, THE TIME IS
+          <Icon src={moon} alt="" /> GOOD DAY, THE TIME IS
         </WelcomeText>
         <Clock />
         <LocationText>IN CARACAS, VENEZUELA</LocationText>
