@@ -1,9 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Container, Col, InfoElement, InfoName, Info } from "./style";
 
 const InfoBox = (props) => {
+  const show = useSelector((state) => state.show_infobox);
   return (
-    <Container>
+    <Container show={show}>
       <Col>
         <InfoElement>
           <InfoName>CURRENT TIMEZONE</InfoName>

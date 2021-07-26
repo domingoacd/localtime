@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   gap: 20vw;
   padding: 3rem;
-  transform: translateY(100%);
+  transform: ${(props) => (props.show ? "translateY(0%)" : "translateY(100%)")};
   transition: transform 0.5s;
   margin: 0 -${({ theme }) => theme.spacing.xPadding};
   background-color: rgba(255, 255, 255, 0.7);

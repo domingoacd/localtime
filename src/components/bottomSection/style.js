@@ -5,6 +5,9 @@ export const Section = styled.section`
   justify-content: space-between;
   align-items: flex-end;
   line-height: 0.9;
+  transition: transform 0.5s;
+  transform: ${(props) =>
+    props.translate ? "translateY(-100%)" : "translateY(0%)"};
 `;
 
 export const WelcomeText = styled.p`
