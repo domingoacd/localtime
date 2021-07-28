@@ -19,7 +19,7 @@ const Button = (props) => {
   return (
     <Btn onClick={toggleInfoBox}>
       {show_infobox ? "Show less " : "Show more "}
-      <Arrow image={arrow} rotate={show_infobox} />
+      <Arrow image={arrow} $rotate={show_infobox} />
     </Btn>
   );
 };

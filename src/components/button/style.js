@@ -17,7 +17,7 @@ export const Arrow = styled.span`
   display: block;
   width: 1rem;
   height: 1rem;
-  transform: ${(props) => (props.rotate ? "rotate(180deg)" : "rotate(0deg)")};
+  transform: ${(props) => (props.$rotate ? "rotate(180deg)" : "rotate(0deg)")};
   transition: transform 0.5s;
   background-image: url(${(props) => props.image});
   background-size: 100% 100%;

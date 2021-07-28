@@ -11,6 +11,7 @@ import InfoBox from "../infoBox";
 import { applyMiddleware, compose, createStore } from "redux";
 import rootReducer from "../../store/reducers";
 import { Provider } from "react-redux";
+import { getQuote } from "../../functions";
 
 let store = createStore(
   rootReducer,
@@ -21,6 +22,7 @@ let store = createStore(
 function App() {
   const [showInfoBox, setShowInfoBox] = useState(false);
 
+  getQuote();
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
