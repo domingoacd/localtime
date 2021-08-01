@@ -7,11 +7,3 @@ exports[`Renders Clock component 1`] = `
   07:02
 </p>
 `;
-
-exports[`Renders Quote component 1`] = `
-<p
-  className="sc-bdnxRM cSUPny"
->
-  07:02
-</p>
-`;

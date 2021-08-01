@@ -24,10 +24,16 @@ const handleApiError = (error) => {
 export const getQuote = async () => {
   const response = await fetch(API_URL);
   const data = await response.json();
-
   try {
     return handleApiData(data);
   } catch (error) {
     return handleApiError(error);
   }
+};
+
+export const getCurrentTime = () => new Date();
+
+export const getCurrentHour = () => {
+  const currentTime = getCurrentTime();
+  return currentTime.getHours();
 };

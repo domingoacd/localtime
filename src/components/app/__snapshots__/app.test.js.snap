@@ -13,7 +13,7 @@ Array [
     className="sc-eCApnc jMzDgT"
   >
     <blockquote
-      className="sc-bdnxRM gBQhwI"
+      className="sc-bdnxRM DiQLT"
     >
       "Don’t postpone joy until you have learned all of your lessons. Joy is your lesson."
       <span
@@ -23,7 +23,7 @@ Array [
       </span>
     </blockquote>
     <section
-      className="sc-fujyAs dPWxxo"
+      className="sc-fujyAs eZcLBj"
     >
       <div
         className="sc-iqAclL"
@@ -36,7 +36,7 @@ Array [
             className="sc-kEqXSa ewoxua"
             src="moon.png"
           />
-           GOOD NIGHT, THE TIME IS
+           GOOD DAY, THE TIME IS
         </p>
         <p
           className="sc-jSFjdj eUeLBm"
@@ -51,15 +51,16 @@ Array [
       </div>
       <button
         className="sc-gKAaRy iRJMvI"
+        onClick={[Function]}
       >
         Show more 
         <span
-          className="sc-iCoGMd ewA-Dvh"
+          className="sc-iCoGMd kbyogn"
         />
       </button>
     </section>
     <div
-      className="sc-crzoAE eNHenv"
+      className="sc-crzoAE bRMINs"
     >
       <div
         className="sc-dIsUp ipoGrL"

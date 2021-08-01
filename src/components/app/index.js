@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle, theme } from "../../style";
 import Quote from "../quote";
@@ -6,12 +5,11 @@ import BgImage from "../bgImage";
 import { AppContainer } from "./style";
 import dayBg from "../../assets/day.png";
 import BottomSection from "../bottomSection";
-import { QUOTE_DATA } from "../../constants";
 import InfoBox from "../infoBox";
 import { applyMiddleware, compose, createStore } from "redux";
 import rootReducer from "../../store/reducers";
 import { Provider } from "react-redux";
-import { getQuote } from "../../functions";
+import { getCurrentHour, getCurrentTime } from "../../functions";
 
 let store = createStore(
   rootReducer,
@@ -20,16 +18,14 @@ let store = createStore(
   )
 );
 function App() {
-  const [showInfoBox, setShowInfoBox] = useState(false);
-
-  getQuote();
+  console.log(getCurrentHour());
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <BgImage imageUrl={dayBg} />
         <AppContainer>
-          <Quote quoteData={QUOTE_DATA} />
+          <Quote />
           <BottomSection />
           <InfoBox />
         </AppContainer>
