@@ -9,7 +9,11 @@ import InfoBox from "../infoBox";
 import { applyMiddleware, compose, createStore } from "redux";
 import rootReducer from "../../store/reducers";
 import { Provider } from "react-redux";
-import { getCurrentHour, getCurrentTime } from "../../functions";
+import {
+  getCurrentHour,
+  getCurrentTime,
+  getFormatedTime,
+} from "../../functions";
 
 let store = createStore(
   rootReducer,
@@ -18,7 +22,7 @@ let store = createStore(
   )
 );
 function App() {
-  console.log(getCurrentHour());
+  console.log(getFormatedTime());
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>

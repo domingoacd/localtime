@@ -37,3 +37,12 @@ export const getCurrentHour = () => {
   const currentTime = getCurrentTime();
   return currentTime.getHours();
 };
+
+export const getFormatedTime = () => {
+  const currentTime = getCurrentTime();
+  return (
+    currentTime.getHours() +
+    ":" +
+    currentTime.getMinutes().toString().padStart(2, "0")
+  );
+};

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Blockquote = styled.blockquote`
   position: relative;
+  max-width: 40rem;
   display: flex;
   flex-direction: column;
   font-size: ${({ theme }) => theme.fontSize.small};
