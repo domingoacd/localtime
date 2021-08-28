@@ -8,3 +8,4 @@ export const API_URL = "https://api.quotable.io/random";
 
 export const ERROR_API_NO_DATA = "no data";
 export const ERROR_API_FETCHING_DATA = "Error fetching data";
+ 
